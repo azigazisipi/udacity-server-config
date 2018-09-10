@@ -36,7 +36,6 @@ Application URL: [http://ec2-54-214-151-237.us-west-2.compute.amazonaws.com/](ht
 1. Open time configuration dialog and set it to UTC with: `$ sudo dpkg-reconfigure tzdata`.
 2. Install *ntp daemon ntpd* for a better synchronization of the server's time over the network connection: `$ sudo apt-get install ntp`.
 
-Source: [UbuntuTime](https://help.ubuntu.com/community/UbuntuTime).
 
 ### 4 - Configure the key-based authentication for *grader* user
 
