@@ -4,9 +4,9 @@
 
 Goals of the project given by our instructors from Udacity:
 
-> You will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
+> This project is linked to the Configuring Linux Web Servers course, which teaches you to secure and set up a Linux server. By the end of this project, you will have one of your web applications running live on a secure web server.
 
-The application meant to be deployed is the **Item catalog app**, previously developed for [Project 3](https://github.com/iliketomatoes/catalog).
+The application meant to be deployed is the **Item catalog app**, previously developed for [Project 3](https://github.com/azigazisipi/udacity-item-catalog).
 
 ## Useful info
 
