@@ -150,7 +150,7 @@ from catalog import app as application
 1. Install some necessary Python packages for working with PostgreSQL: `$ sudo apt-get install libpq-dev python-dev`.
 2. Install PostgreSQL: `$ sudo apt-get install postgresql postgresql-contrib`.
 3. Postgres is automatically creating a new user during its installation, whose name is 'postgres'. That is a tusted user who can access the database software. So let's change the user with: `$ sudo su - postgres`, then connect to the database system with `$ psql`.
-4. Create a new user called 'catalog' with his password: `# CREATE USER catalog WITH PASSWORD 'sillypassword';`.
+4. Create a new user called 'catalog' with his password: `# CREATE USER catalog WITH PASSWORD 'dummypassword';`.
 5. Give *catalog* user the CREATEDB capability: `# ALTER USER catalog CREATEDB;`.
 6. Create the 'catalog' database owned by *catalog* user: `# CREATE DATABASE catalog WITH OWNER catalog;`.
 7. Connect to the database: `# \c catalog`.
